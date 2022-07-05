@@ -13,6 +13,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -37,27 +38,9 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-/* .half-width2 img{
-    border-radius: 10%;
-} */
-
-.half-width2 img{
-    width: 70%;
-}
 
 .dream-big{
-    /* background-image: url(images/exp-bg.png);
-    background-repeat: no repeat; */
-}
-
-.third-part{
-    display: flex;
-    border-style:solid 2px;
-    height: 200px;
-    width: 400px;
-    
-}
-
-.p-3rd-part{
-    font: 20px tahoma;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
