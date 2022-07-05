@@ -52,4 +52,12 @@ section{
 
 .third-part{
     display: flex;
+    border-style:solid 2px;
+    height: 200px;
+    width: 400px;
+    
+}
+
+.p-3rd-part{
+    font: 20px tahoma;
 }
