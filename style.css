@@ -51,12 +51,14 @@ h3{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: 80%;
+    margin-bottom: 40px;
 }
 
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 40px;
 }
 
 .experience-item{
