@@ -3,10 +3,22 @@ body{
     margin: 0;
 }
 
-h1{
-    font-size: 50px;
+p{
+    font-size: 20px;
 }
 
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -30,6 +42,7 @@ h1{
     background-image:linear-gradient(orange,tomato);
     font-weight: 700px;
     color: whitesmoke;
+    font-size: 20px;
     padding: 10px 40px;
     border-radius: 5px;
 }
@@ -37,10 +50,41 @@ h1{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-size: 80%;
 }
 
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    box-shadow: 10px 15px 40px 5px gray;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 3%;
+    padding: 0 20px 0 20px;
+    
+
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+background-size: 300px;
+}
+
+#full-stack{
+    border-left: 20px solid tomato;
+}
+
+#baby-web{
+    border-left: 20px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
